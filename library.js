@@ -20,9 +20,9 @@
 		if (data.postData.content.match(regularUrl)) {
 			data.postData.content = data.postData.content.replace(regularUrl, embed);
 		}
-		if (data.postData.content.match(shortUrl)) {
-			data.postData.content = data.postData.content.replace(shortUrl, embed);
-		}
+		//if (data.postData.content.match(shortUrl)) {
+		//	data.postData.content = data.postData.content.replace(shortUrl, embed);
+		//}
 
 		callback(null, data);
 	};
